@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - DOCStudio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card-bg: #ffffff;
+        --text: #0f172a;
+        --text-muted: #64748b;
+        --accent: #0284c7;
+        --border: #e2e8f0;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-top: 0;
+      color: var(--accent);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 2rem;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+    }
+    p, li {
+      color: var(--text);
+    }
+    .muted {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+      font-size: 0.95rem;
+    }
+    th {
+      background: rgba(148, 163, 184, 0.1);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .callout {
+      background: rgba(56, 189, 248, 0.08);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <span class="badge">Privacy Policy</span>
+      <span class="muted">Effective: October 6, 2026</span>
+    </div>
+    <h1>DOCStudio Privacy Policy</h1>
+    <p class="muted">
+      <strong>Application:</strong> DOCStudio (Document Research Studio)<br />
+      <strong>Package Name:</strong> <code>com.parasswarnkar.docstudio</code><br />
+      <strong>Developer / Publisher:</strong> Paras Swarnkar<br />
+      <strong>Contact:</strong> <a href="mailto:parasswarnkar0609@gmail.com">parasswarnkar0609@gmail.com</a>
+    </p>
+
+    <div class="callout">
+      <strong>Core Privacy Architecture: Local-First</strong><br />
+      Your documents (PDFs, DOCX, TXT, images), research notes, canvases, annotations, and extracted text are stored strictly on your local device. We <strong>never upload or transmit your documents</strong> to cloud servers. On-device Optical Character Recognition (OCR) is performed entirely locally via offline Google ML Kit models.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <h3>A. Account Information (Optional)</h3>
+    <p>You can use DOCStudio as a Guest without providing personal details. When signing in with Google or Email:</p>
+    <ul>
+      <li><strong>Identifiers:</strong> Unique User ID (Firebase UID).</li>
+      <li><strong>Profile Data:</strong> Display name, email address, and profile photo URL.</li>
+      <li><strong>Metadata:</strong> Creation timestamp, last sign-in timestamp, and membership tier (<code>free</code> or <code>pro</code>).</li>
+    </ul>
+
+    <h3>B. Advertising Information (Free Tier Only)</h3>
+    <p>To support free access, the App uses Google AdMob to display advertisements:</p>
+    <ul>
+      <li>Device identifiers (such as Google Advertising ID / AAID).</li>
+      <li>Diagnostic and ad interaction statistics.</li>
+      <li><em>Pro Tier subscribers experience an ad-free environment without ad requests.</em></li>
+    </ul>
+
+    <h3>C. Diagnostic & Technical Data</h3>
+    <p>Aggregated technical diagnostics such as app crashes, device model, operating system version, and general locale may be processed via Firebase to improve stability.</p>
+
+    <h2>2. Device Permissions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Permission</th>
+          <th>Usage & Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Camera</strong></td>
+          <td>Used only when you scan documents or capture images into a project. All images are processed on-device.</td>
+        </tr>
+        <tr>
+          <td><strong>Storage / Media</strong></td>
+          <td>Used solely to import files and export research notes, packages, and reports selected by you.</td>
+        </tr>
+        <tr>
+          <td><strong>Internet & Network State</strong></td>
+          <td>Required for Firebase account sign-in, subscription tier verification, and serving advertisements (Free tier).</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Third-Party Services</h2>
+    <p>The App integrates the following third-party services whose privacy policies govern their data handling:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services</a></li>
+      <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase (Auth, Firestore, Analytics)</a></li>
+      <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google AdMob</a></li>
+    </ul>
+
+    <h2>4. Data Retention & Account Deletion</h2>
+    <ul>
+      <li><strong>Document Data:</strong> Deleting projects, documents, or uninstalling the App purges all local document data from your device immediately.</li>
+      <li><strong>Account Deletion:</strong> You may request complete permanent deletion of your Firebase account and Firestore record at any time by emailing <a href="mailto:parasswarnkar0609@gmail.com">parasswarnkar0609@gmail.com</a> with the subject <em>"Account Deletion Request"</em>. Requests are fulfilled within 30 days.</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>DOCStudio does not knowingly collect personally identifiable information from children under the age of 13. If you believe a child has provided us with personal information, please contact us for immediate removal.</p>
+
+    <h2>6. User Rights (GDPR & CCPA)</h2>
+    <p>Users in the EEA, UK, California, and other jurisdictions have rights to access, rectify, delete, and port their personal data, as well as opt out of personalized ads via device settings (<em>Settings &gt; Google &gt; Ads</em>).</p>
+
+    <h2>7. Contact</h2>
+    <p>For any questions or data requests regarding this Privacy Policy:</p>
+    <p>
+      <strong>Paras Swarnkar</strong><br />
+      Email: <a href="mailto:parasswarnkar0609@gmail.com">parasswarnkar0609@gmail.com</a><br />
+      App: DOCStudio (<code>com.parasswarnkar.docstudio</code>)
+    </p>
+  </div>
+</body>
+</html>
